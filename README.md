@@ -40,10 +40,10 @@ With these box plots we can see that the players with higher engagement levels t
 ## Modeling
 We used five models to try to make predictions about our target variable of engagement to find what factors were the most important.
 
-1. Our first model was a baseline model with a score of 78% accuracy on both the train and test
-2. The second model was a logistic regression model with the most correlated features, it had a 77% accuracy on the train and test
-3. The third model was a decision tree classifier with a 100% accuracy on the train and 83% accuracy on the test
-4. The fourth used two logistic regression models based on first split from decision tree classifier (SessionsPerWeek). It scored 88% accuracy on the train and 86% accuracy on the test.
+1. Our first model was a baseline model with a score of 78% accuracy on both the train and test;
+2. The second model was a logistic regression model with the most correlated features, it had a 77% accuracy on the train and test;
+3. The third model was a decision tree classifier with a 100% accuracy on the train and 83% accuracy on the test;
+4. The fourth used two logistic regression models based on first split from decision tree classifier (SessionsPerWeek). It scored 88% accuracy on the train and 86% accuracy on the test;
 5. The final model was a decision tree classifier with the hyperparameter tuned, it scored the best with a 92% accuracy on the train and 90% accuracy on the test.
 ### Evaluations
 __Baseline model:__ The baseline model provides a benchmark to compare the performance of other models. It shows consistent performance on both train and test sets, indicating that more sophisticated models need to outperform this baseline to be considered effective.
@@ -77,5 +77,5 @@ We could do further and a more thorough analysis of gamer behavior with the foll
 
 ## For More Information
 
-For additional info, contact [Cayke Felipe dos Anjos]() or [James Warsing](www.linkedin.com/in/jameswarsing)
+For additional info, contact [Cayke Felipe dos Anjos](www.linkedin.com/in/cayke-fda) or [James Warsing](www.linkedin.com/in/jameswarsing)
 
